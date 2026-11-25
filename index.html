@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XEN.JAILBREAK 2.1</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#080808;color:white;
+ font-family:Arial,sans-serif;text-align:center;
+}
+header{padding:28px 12px;background:#111;border-bottom:2px solid #e00020}
+h1{font-size:35px;color:#f01432;margin:0;letter-spacing:4px}
+.subtitle{color:#aaa;margin-top:9px}
+main{max-width:650px;margin:30px auto;padding:15px}
+.card{
+ background:#151515;border:1px solid #383838;
+ border-radius:12px;padding:20px;margin:15px 0;
+}
+h2{color:#f01432;margin-top:0}
+button{
+ width:100%;padding:15px;margin:7px 0;
+ background:#b90020;color:white;border:0;
+ border-radius:7px;font-size:16px;font-weight:bold;
+ cursor:pointer;
+}
+button:active{background:#710015}
+.info{color:#aaa;font-size:13px}
+#status{color:#ff435b;margin-top:15px}
+footer{color:#777;padding:25px;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<h1>XEN</h1>
+<div class="subtitle">JAILBREAK 2.1 — CODED BY XEN</div>
+</header>
+
+<main>
+<div class="card">
+<h2>GOLDHEN</h2>
+<p>Module d'intégration GoldHEN</p>
+<button onclick="message('Intégration GoldHEN à configurer.')">
+GOLDHEN
+</button>
+</div>
+
+<div class="card">
+<h2>JAILBREAK XEN</h2>
+<p>Menu personnalisé XEN</p>
+<button onclick="message('Menu XEN : interface en préparation.')">
+OUVRIR MON MENU
+</button>
+</div>
+
+<div class="card">
+<h2>GESTION DES PLUGINS</h2>
+<button onclick="message('Gestionnaire de plugins en préparation.')">
+GESTIONNAIRE DE PLUGINS
+</button>
+</div>
+
+<div class="card">
+<h2>INFORMATIONS</h2>
+<p>Projet : XEN.JAILBREAK 2.1</p>
+<p>Console cible : PS4 Fat</p>
+<p>Firmware cible : 14.02</p>
+<p class="info">Compatibilité de l'exploit à vérifier.</p>
+</div>
+
+<div id="status">XEN INITIALISÉ — INTERFACE WEB</div>
+</main>
+
+<footer> XEN.JAILBREAK — CODED BY XEN </footer>
+
+<script>
+function message(txt){
+ document.getElementById("status").textContent=txt;
+}
+</script>
+</body>
+</html>
