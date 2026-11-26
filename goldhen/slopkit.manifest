@@ -2,8 +2,8 @@ CACHE MANIFEST
 # GoldHEN v2.4b18.14 payload - revision 15 - 2026-11-18
 
 CACHE:
-../img.jpg
-../style.css
+img.jpg
+style.css
 goldhen_2.4b18.14.bin
 index.html
 slopkit/afterglow.js
